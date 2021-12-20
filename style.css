@@ -1,7 +1,17 @@
 *{
     box-sizing: border-box;
 }
-
+html{
+    font-size: 20px;
+}
 body{
     font-family: 'Inconsolata', monospace;
+}
+#logo{
+    max-width: 152px;
+    height: 81px;
+}
+#logo:hover{
+    box-shadow: 1px 1px 15px 1px blue;
+    transition: 1s all;
 }
