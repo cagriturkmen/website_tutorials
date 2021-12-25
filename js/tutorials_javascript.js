@@ -419,14 +419,14 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //DOM: Document OBject Model
-// document.getElementById("dom_id").style.color = "blue";
-// document.querySelector("#dom_id").style.fontSize ="400px";
+document.getElementById("dom_id").style.color = "blue";
+document.querySelector("#dom_id").style.fontSize ="10px";
 
-// document.getElementsByClassName("dom_class")[0].style.fontSize = "255px";
-// document.querySelector(".dom_class").style.fontSize ="400px";
+document.getElementsByClassName("dom_class")[1].style.fontSize = "25px";
+document.querySelector(".dom_class").style.fontSize ="50px";
 
-// document.getElementsByName("dom_name")[0].style.backgroundColor = "red";
-// document.getElementsByTagName("p")[0].style.color = "yellow";
+document.getElementsByName("deneme")[0].style.backgroundColor = "red";
+document.getElementsByTagName("p")[0].style.color = "yellow";
 
 //selector
 document.querySelector("#dom > .deneme2").style.color = "red";
@@ -439,8 +439,8 @@ function tarihGoster() {
     "<b> <i>" + new Date() + "</i></b>";
   document.getElementById("tarih2").innerText =
     "<b> <i>" + new Date() + "</i></b>";
-}
 
+} 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //listener
 var count = 0;
